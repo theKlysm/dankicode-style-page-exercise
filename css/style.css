@@ -11,6 +11,14 @@ html,body{
     height: 100%;
 }
 
+/* Header container */
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* Header container */
+
+/* Header*/
 header{
     width: 100%;
     height: 90vh;
@@ -19,4 +27,21 @@ header{
     background-position: center;
     background-image: url('../images/capa.png');
 }
+/* Header */
+
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+    color: white;
+}
+
+header nav li{
+    float: left;
+    margin: 0 20px;
+}
+
 /* Body */
