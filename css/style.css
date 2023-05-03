@@ -90,8 +90,35 @@ section.sessao1{
     padding: 20px 2%;
 }
 
-.text-sessao1{
+.texto-sessao1{
     float: left;
+    width: 50%;
+    color: white;
+}
+
+.texto-sessao1 h2{
+    font-weight: 300;
+}
+
+.texto-sessao1 p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.texto-sessao1 ul{
+    font-size: 13px;
+    list-style-position: inside;
+}
+
+.texto-sessao1 ul li{
+    float: left;
+    width: 100%;
+}
+
+
+.device-sessao1{
+    float: left;
+    width: 50%;
 }
 /* Sessao1 */
 
