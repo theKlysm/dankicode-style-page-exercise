@@ -29,7 +29,7 @@ header{
     width: 100%;
     height: 90vh;
     padding: 40px 2%;
-    max-height: 700px;
+    /*max-height: 700px;*/
     background-size: cover;
     background-position: center;
     background-image: url('../images/capa.png');
@@ -82,5 +82,18 @@ header li a{
     margin-top: 10px;
 }
 /* Chamada1 */
+
+/* Sessao1 */
+section.sessao1{
+    width: 100%;
+    background-color: #472562;
+    padding: 20px 2%;
+}
+
+.text-sessao1{
+    float: left;
+}
+/* Sessao1 */
+
 
 /* Body */
