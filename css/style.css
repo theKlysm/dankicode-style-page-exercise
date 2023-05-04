@@ -90,6 +90,10 @@ section.sessao1{
     padding: 20px 2%;
 }
 
+section.sessao1 .container{
+    max-width: 1000px;
+}
+
 .texto-sessao1{
     float: left;
     width: 50%;
@@ -119,6 +123,9 @@ section.sessao1{
 .device-sessao1{
     float: left;
     width: 50%;
+    height: 300px;
+    background-image: url('../images/device.png');
+    background-size: 100% auto;
 }
 /* Sessao1 */
 
