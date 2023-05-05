@@ -47,19 +47,23 @@ header nav{
     float: right;
 }
 
-header nav ul{
+header nav.desktop-menu ul{
     list-style-type: none;
     color: white;
 }
 
-header nav li{
+header nav.desktop-menu li{
     float: left;
     margin: 0 20px;
 }
 
-header li a{
+header nav.desktop-menu li a{
     text-decoration: none;
     color: white;
+}
+
+header nav.mobile-menu{
+    display: none;
 }
 /* Header */
 
@@ -152,9 +156,28 @@ section.sessao1 .container{
 /* Sessao1 */
 /* Body */
 
-/* Media query */
 
+/* Media query */
 @media screen and (max-width: 768px){
+
+header{
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    padding: 40px 2%;
+}
+
+
+
+
+nav.desktop-menu{
+    display: none;
+}
+
+nav.mobile-menu{
+    display: block;
+}
+
 
 section.sessao1{
     padding: 40px 2%;
@@ -183,7 +206,6 @@ section.sessao1{
 
 .device-sessao1{
     display: none;
-
 }
 
 }
