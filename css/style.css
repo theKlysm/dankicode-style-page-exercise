@@ -165,13 +165,25 @@ section.sessao1{
     float: none;
     width: 100%;
     margin-top: 0;
+    padding-left: 0;
     position: static;
     display: inline-block;
 }
 
+.texto-sessao1 ul{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.texto-sessao1 ul li{
+    float: none;
+    text-align: center;
+}
+
+
 .device-sessao1{
     display: none;
-    
+
 }
 
 }
