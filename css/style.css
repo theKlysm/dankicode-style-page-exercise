@@ -47,23 +47,58 @@ header nav{
     float: right;
 }
 
-header nav.desktop-menu ul{
+nav.desktop-menu ul{
     list-style-type: none;
     color: white;
 }
 
-header nav.desktop-menu li{
+nav.desktop-menu li{
     float: left;
     margin: 0 20px;
 }
 
-header nav.desktop-menu li a{
+nav.desktop-menu li a{
     text-decoration: none;
     color: white;
 }
 
-header nav.mobile-menu{
+nav.mobile-menu{
     display: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    background-image: url('../images/menu-aberto.png');
+    background-size: 100% 100%;
+}
+
+nav.mobile-menu:hover ul{
+    opacity: 1;
+}
+
+nav.mobile-menu ul{
+    opacity: 0;
+    transition: 1s;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.mobile-menu ul li{
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+nav.mobile-menu ul li:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+nav.mobile-menu ul li a{
+    color: black;
+    text-decoration: none;
 }
 /* Header */
 
@@ -112,7 +147,6 @@ section.sessao1 .container{
 .texto-sessao1 h2{
     font-size: 26px;
     font-weight: 300;
-
 }
 
 .texto-sessao1 p{
