@@ -225,6 +225,32 @@
     /* SESSAO2 */
 /* BODY */
 
+/* MEDIA QUERY 830PX */
+@media screen and (max-width: 830px) {
+    /* header-chamada1 */
+        .header-chamada1{
+            max-width: none;
+            width: 100%;
+            text-align: center;
+            float: none;
+            margin: 100px 0;
+        }
+
+        .header-chamada1 h2{
+            font-weight: 300;
+            font-size: 30px;
+            padding: 0 0px;
+            color: white;
+        }
+
+        .header-chamada1 p{
+            font-size: 15px;
+            color: white;
+            margin-top: 10px;
+        }
+    /* header-chamada1 */    
+}
+
 
 /* MEDIA QUERY 768PX */
 @media screen and (max-width: 768px){
@@ -245,30 +271,6 @@
                 display: block;
             }/* mobile-menu */
         /* header-nav */
-
-
-        /* header-chamada1 */
-            .header-chamada1{
-                max-width: none;
-                width: 100%;
-                text-align: center;
-                float: none;
-                margin: 100px 0;
-            }
-
-            .header-chamada1 h2{
-                font-weight: 300;
-                font-size: 30px;
-                padding: 0 0px;
-                color: white;
-            }
-
-            .header-chamada1 p{
-                font-size: 15px;
-                color: white;
-                margin-top: 10px;
-            }
-        /* header-chamada1 */
     /* header */
 
 
@@ -304,5 +306,11 @@
             display: none;
         }/* sessao1-device */
     /* sessao1 */
+
+    /* sessao2 */
+        .sessao2{
+            padding-top: 40px;
+        }
+    /* sessao2 */
 }
 /* MEDIA QUERY 768PX */
