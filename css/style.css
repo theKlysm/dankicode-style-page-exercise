@@ -195,6 +195,26 @@
             background-size: 100% 100%;
         }/* sessao1-device */
     /* SESSAO1 */
+
+    /* SESSAO2 */
+        .sessao2{
+            padding-top: 80px 2%;
+            color: white;
+            text-align: center;
+        }
+
+        .sessao2 h2{
+            color: #472663;
+            font-weight: 300;
+        }
+
+        .sessao2 p{
+            margin-top: 30px;
+            max-width: 700px;
+            display: inline-block;
+        }
+
+    /* SESSAO2 */
 /* BODY */
 
 
