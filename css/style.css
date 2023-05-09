@@ -136,6 +136,7 @@
 
             section.sessao1 .container{
                 max-width: 1000px;
+                height: calc(100% + 30px);
             }
         /* sessao1-container */
 
@@ -191,7 +192,7 @@
             width: 50%;
             position: relative;
             top: -30px;
-            height: 430px;
+            height: 100%;
             background-image: url('../images/device.png');
             background-size: 100% 100%;
         }/* sessao1-device */
@@ -225,6 +226,33 @@
         }
 
     /* SESSAO2 */
+
+    /* SESSAO3 */
+        .sessao3{
+            width: 100%;
+        }
+        
+        .part1{
+            color: white;
+            float: left;
+            width: 50%;
+            padding: 140px 0 90px 0;
+            background: #835FA7;
+        }
+
+        .part1 h2{
+            font-weight: 300;
+            font-style: italic;
+            font-size: 23px;
+        }
+
+        .part1 p{
+            font-size: 15px;
+            line-height: 35px;
+            margin-top: 10px;
+        }
+    /* SESSAO3 */
+
 /* BODY */
 
 /* MEDIA QUERY 830PX */
