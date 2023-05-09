@@ -214,15 +214,18 @@
 
         .sessao2 p{
             margin-top: 30px;
-            max-width: 700px;
+            max-width: 900px;
             color: #472663;
             display: inline-block;
         }
 
         .sessao2 img{
-            margin-top: 30px;
-            max-width: 900px;
-            display: inline-block;
+            position: relative;
+            margin-top: 10px;
+            top: 50px;
+            width: 100%;
+            /*max-width: 900px;
+            display: inline-block;*/
         }
 
     /* SESSAO2 */
@@ -238,6 +241,12 @@
             width: 50%;
             padding: 140px 0 90px 0;
             background: #835FA7;
+        }
+
+        .wraper-part1{
+            max-width: 600px;
+            float: right;
+            padding-right: 30px;
         }
 
         .part1 h2{
