@@ -260,6 +260,34 @@
             line-height: 35px;
             margin-top: 10px;
         }
+
+        .part2{
+            float: left;
+            width: 50%;
+            padding: 140px 0 90px 0;
+            background: white;
+        }
+
+        .autor-sobre{
+            float: left;
+            max-width: 600px;
+            padding-left: 30px;
+        }
+
+        .autor-titulo{
+            float: left;
+            width: 100%;
+        }
+
+        .autor-titulo h2{
+            float: left;
+            width: 40%;
+        }
+
+        .autor-titulo .autor-img{
+            float: left;
+            width: 60%;
+        }
     /* SESSAO3 */
 
 /* BODY */
