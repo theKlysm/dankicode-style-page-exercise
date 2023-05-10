@@ -279,17 +279,46 @@
             width: 100%;
         }
 
-        .autor-titulo h2{
+        .autor-titulo-wraper{
             float: left;
-            width: 40%;
+        }
+
+        .autor-titulo h2{
+            color: #232323;
+            font-weight: 400;
+            font-size: 25px;
+            padding-right: 20px;
+        }
+
+        .autor-titulo p{
+            color: #232323;
+            font-weight: 300;
+            font-size: 12px;
+            font-style: italic;
         }
 
         .autor-titulo .autor-img{
             float: left;
-            width: 60%;
+            margin-left: 10px;
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top: 8px;
+            border-radius: 20px;
+            background-color: blue;
+        }
+
+        .autor-texto{
+            float: left;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .autor-texto p{
+            color: #232323;
+            font-size: 15px;
         }
     /* SESSAO3 */
-
 /* BODY */
 
 /* MEDIA QUERY 830PX */
