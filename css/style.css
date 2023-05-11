@@ -352,6 +352,7 @@
             color: white;
             float: left;
             width: 50%;
+            padding-left: 10px;
         }
 
         .form h2{
@@ -363,6 +364,7 @@
             font-size: 15px;
             font-weight: 300;
             max-width: 400px;
+            padding-right: 25px;
         }
 
         .form form{
@@ -370,7 +372,7 @@
         }
 
         .form form input[type=text]{
-            width: 100%;
+            width: 95%;
             max-width: 480px;
             margin-top: 8px;
             height: 58px;
@@ -380,7 +382,7 @@
         }
 
         .form form textarea{
-            width: 100%;
+            width: 95%;
             max-width: 480px;
             margin-top: 8px;
             padding: 15px;
@@ -398,6 +400,43 @@
             margin-top: 15px;
             border: 0;
             border-radius: 30px;
+        }
+
+        .map-wraper{
+            float: left;
+            width: 50%;
+            padding: 0 10px;
+            color: white;
+        }
+
+        .map-wraper h2{
+            font-size: 23px;
+            font-weight: 300;
+        }
+
+        .map-wraper3{
+            margin-top: 10px;
+            width: 100%;
+            max-width: 480px;
+            position: relative;
+        }
+
+        .map-wraper2{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            padding-top: 100%;
+        }
+
+        .map{
+            left: 0;
+            top: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border: 5px solid rgb(200, 200, 200);
         }
     /* SESSAO4 */
 /* BODY */
