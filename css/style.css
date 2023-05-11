@@ -235,106 +235,111 @@
             width: 100%;
         }
         
-        .part1{
-            color: white;
-            float: left;
-            width: 50%;
-            padding: 140px 0 90px 0;
-            background: #835FA7;
-        }
+        /* part1 */
+            .part1{
+                color: white;
+                float: left;
+                width: 50%;
+                padding: 140px 0 90px 0;
+                background: #835FA7;
+            }
 
-        .wraper-part1{
-            max-width: 600px;
-            float: right;
-            padding-right: 30px;
-        }
+            .wraper-part1{
+                max-width: 600px;
+                float: right;
+                padding: 30px;
+            }
 
-        .part1 h2{
-            font-weight: 300;
-            font-style: italic;
-            font-size: 23px;
-        }
+            .part1 h2{
+                font-weight: 300;
+                font-style: italic;
+                font-size: 23px;
+            }
 
-        .part1 p{
-            font-size: 15px;
-            line-height: 35px;
-            margin-top: 10px;
-        }
+            .part1 p{
+                font-size: 15px;
+                line-height: 35px;
+                margin-top: 10px;
+            }
+        /* part1 */
+        
+        /* part2 */
+            .part2{
+                float: left;
+                width: 50%;
+                padding: 140px 0 90px 0;
+                background: white;
+            }
 
-        .part2{
-            float: left;
-            width: 50%;
-            padding: 140px 0 90px 0;
-            background: white;
-        }
+            .autor-sobre{
+                float: left;
+                max-width: 600px;
+                padding-left: 30px;
+            }
 
-        .autor-sobre{
-            float: left;
-            max-width: 600px;
-            padding-left: 30px;
-        }
+            .autor-titulo{
+                float: left;
+                width: 100%;
+            }
 
-        .autor-titulo{
-            float: left;
-            width: 100%;
-        }
+            .autor-titulo-wraper{
+                float: left;
+            }
 
-        .autor-titulo-wraper{
-            float: left;
-        }
+            .autor-titulo h2{
+                color: #232323;
+                font-weight: 400;
+                font-size: 25px;
+                padding-right: 20px;
+            }
 
-        .autor-titulo h2{
-            color: #232323;
-            font-weight: 400;
-            font-size: 25px;
-            padding-right: 20px;
-        }
+            .autor-titulo p{
+                color: #232323;
+                font-weight: 300;
+                font-size: 12px;
+                font-style: italic;
+            }
 
-        .autor-titulo p{
-            color: #232323;
-            font-weight: 300;
-            font-size: 12px;
-            font-style: italic;
-        }
+            .autor-titulo .autor-img{
+                float: left;
+                margin-left: 10px;
+                width: 40px;
+                height: 40px;
+                position: relative;
+                top: 8px;
+                border-radius: 20px;
+                background-color: blue;
+            }
 
-        .autor-titulo .autor-img{
-            float: left;
-            margin-left: 10px;
-            width: 40px;
-            height: 40px;
-            position: relative;
-            top: 8px;
-            border-radius: 20px;
-            background-color: blue;
-        }
+            .autor-texto{
+                float: left;
+                width: 100%;
+                margin-top: 10px;
+            }
 
-        .autor-texto{
-            float: left;
-            width: 100%;
-            margin-top: 10px;
-        }
+            .autor-texto p{
+                color: #232323;
+                font-size: 15px;
+                padding-right: 30px;
+            }
 
-        .autor-texto p{
-            color: #232323;
-            font-size: 15px;
-        }
+            .slider-bullets{
+                width: 100%;
+                float: left;
+                padding-left: 30px;
+                margin-top: 12px;
+            }
 
-        .slider-bullets{
-            width: 100%;
-            float: left;
-            padding-left: 30px;
-            margin-top: 12px;
-        }
-
-        .slider-bullets span{
-            width: 13px;
-            height: 13px;
-            float: left;
-            margin-right: 8px;
-            cursor: pointer;
-            border-radius: 8px;
-            background-color: rgb(200, 200, 200);
-        }
+            .slider-bullets span{
+                width: 13px;
+                height: 13px;
+                float: left;
+                margin-right: 8px;
+                cursor: pointer;
+                border-radius: 8px;
+                background-color: rgb(200, 200, 200);
+            }
+        /* part2 */
     /* SESSAO3 */
 /* BODY */
 
@@ -427,3 +432,26 @@
     /* sessao2 */
 }
 /* MEDIA QUERY 768PX */
+
+/* MEDIA QUERY 580PX */
+@media screen and (max-width: 580px){
+    /* sessao2 */
+        .sessao2 img{
+            top: 16px;
+            margin-top: 20px;
+        }
+    /* sessao2 */
+    
+    /* sessao3 */
+        .part1{
+            padding: 40px 0;
+            width: 100%;
+        }
+
+        .part2{
+            padding: 40px 0;
+            width: 100%;
+        }
+    /* sessao3 */
+}
+/* MEDIA QUERY 580PX */
