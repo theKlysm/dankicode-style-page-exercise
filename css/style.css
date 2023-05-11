@@ -365,14 +365,39 @@
             max-width: 400px;
         }
 
-        .form form input[typer=text]{
+        .form form{
+            margin: 15px;
+        }
+
+        .form form input[type=text]{
             width: 100%;
             max-width: 480px;
-            margin-top: 5px;
+            margin-top: 8px;
             height: 58px;
             padding-left: 8px;
             line-height: 58px;
             border: 1px solid rgb(200, 200, 200);
+        }
+
+        .form form textarea{
+            width: 100%;
+            max-width: 480px;
+            margin-top: 8px;
+            padding: 15px;
+            border: 1px solid rgb(200, 200, 200);
+            height: 160px;
+        }
+
+        .form form input[type=submit]{
+            background-color: #FF703D;
+            width: 165px;
+            height: 44px;
+            font-size: 13px;
+            color: white;
+            cursor: pointer;
+            margin-top: 15px;
+            border: 0;
+            border-radius: 30px;
         }
     /* SESSAO4 */
 /* BODY */
