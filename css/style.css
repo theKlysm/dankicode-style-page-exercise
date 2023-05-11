@@ -341,7 +341,42 @@
             }
         /* part2 */
     /* SESSAO3 */
+
+    /* SESSAO4 */
+        .sessao4{
+            background-color: #472563;
+            padding: 100px 0;
+        }
+
+        .form{
+            color: white;
+            float: left;
+            width: 50%;
+        }
+
+        .form h2{
+            font-size: 23px;
+            font-weight: 300;
+        }
+
+        .form p{
+            font-size: 15px;
+            font-weight: 300;
+            max-width: 400px;
+        }
+
+        .form form input[typer=text]{
+            width: 100%;
+            max-width: 480px;
+            margin-top: 5px;
+            height: 58px;
+            padding-left: 8px;
+            line-height: 58px;
+            border: 1px solid rgb(200, 200, 200);
+        }
+    /* SESSAO4 */
 /* BODY */
+
 
 /* MEDIA QUERY 830PX */
 @media screen and (max-width: 830px) {
@@ -432,6 +467,7 @@
     /* sessao2 */
 }
 /* MEDIA QUERY 768PX */
+
 
 /* MEDIA QUERY 580PX */
 @media screen and (max-width: 580px){
