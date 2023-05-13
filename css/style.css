@@ -38,7 +38,9 @@
             float: left;
             width: 160px;
             height: 40px;
-            background-color: #ccc;
+            background-image: url(../images/logodanki.png);
+            background-size: contain;
+            background-color: transparent;
         }/* header-logo */
 
         /* header-nav */
