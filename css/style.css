@@ -35,11 +35,15 @@
         }/* header-container */
 
         header .header-logo{
+            position: relative;
+            top: -5px;
             float: left;
             width: 160px;
             height: 40px;
             background-image: url(../images/logodanki.png);
             background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
             background-color: transparent;
         }/* header-logo */
 
