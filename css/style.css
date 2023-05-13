@@ -311,8 +311,10 @@
                 margin-left: 10px;
                 width: 40px;
                 height: 40px;
-                position: relative;
-                top: 8px;
+                background-image: url(../images/actor1.png);
+                background-size: 100% 100%;
+                /*position: relative;
+                top: 8px;*/
                 border-radius: 20px;
                 background-color: blue;
             }
